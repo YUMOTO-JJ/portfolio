@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ポートフォリオ | RYOTA YUMOTO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mogra&display=swap" rel="stylesheet">
+    <!-- ファビコン設定 -->
+    <link rel="icon" href="images/test.webp" type="image/x-icon">
+    <link rel="shortcut icon" href="images/test.webp" type="image/x-icon">
+
+    <!-- 他のCSSファイル等へのリンク -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- 他のリンク -->
+
+</head>
+
+<body>
+
+    <!-- ローディングアニメーション - bodyタグの直後に配置 -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="logo-container">
+                <img src="images/logo.png" alt="CIRCLE" class="logo-img">
+            </div>
+
+        </div>
+    </div>
+
+    <!-- サイトロゴ - ナビゲーションより前に配置 -->
+    <div class="site-logo">
+        <a href="#hero">
+            <img src="images/test 1.png" alt="CIRCLE" class="header-logo">
+        </a>
+    </div>
+
+    <!-- ナビゲーション -->
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#hero" class="nav-link" data-section="0">Home</a></li>
+            <li><a href="#about" class="nav-link" data-section="1">About</a></li>
+            <li><a href="#works" class="nav-link" data-section="2">Works</a></li>
+            <li><a href="#contact" class="nav-link" data-section="3">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- ヒーローセクション -->
+    <section id="hero">
+        <div class="hero-bg active" style="background-image: url('images/hero-bg-1.jpeg');"></div>
+        <div class="hero-bg" style="background-image: url('images/hero-bg-2.webp');"></div>
+        <div class="hero-bg" style="background-image: url('images/hero-bg-3.jpeg');"></div>
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">RYOTA YUMOTO</h1>
+            <p class="hero-subtitle">web designer/product designer</p>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-angle-down"></i>
+        </div>
+    </section>
+
+    <!-- Aboutセクション -->
+    <section id="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="about-title">About Me</h2>
+                <p class="about-text">
+                    1994年生まれ。販売業からデザインの世界へ飛び込み、現在はUI/UXデザイナーとして活動。
+
+                    株式会社コナカのスーツセレクトで販売業に従事した後、デザインの道へ転身。株式会社444にてプロダクトのUI/UX改善やHPデザイン、TechFULの運営を経験。その後、株式会社CIRCLEのスタートメンバーとして参画し、様々なプロダクトのデザインに携わる。
+                    
+                    クライアントの課題を理解し、本質的な価値を生み出すデザインを探求。単なるビジュアルの美しさだけでなく、ビジネスの成長に貢献できるデザインを提供することを目指している。
+                    
+                    今後は、AIを活用してより戦略的なデザイン設計に携わり、クライアントのビジョンを形にするパートナーとして貢献できるよう努めていきます。制作のご依頼だけでなく、デザイン面でのコンサルティングなどもお気軽にご相談ください。
+                    
+                </p>
+
+                <h2 class="about-title">point of view</h2>
+                <p class="about-text">
+                    私のデザインの核となるのは「ユーザーの視点」。ヒアリングを重視し、最適なUXを提供するための提案と改善を積み重ねています。
+                    私のデザインアプローチは 「ユーザーの本質的な課題を理解すること」 から始まります。
+                    デザインは「一度作って終わり」ではなく、ユーザーの行動を見極めながら進化させていくものだと考えています。
+                </p>
+                <div class="skills">
+                    <div class="skill-item">UI/UXデザイン</div>
+                    <div class="skill-item">Figma</div>
+                    <div class="skill-item">AI開発</div>
+                    <div class="skill-item">Adobe XD</div>
+                    <div class="skill-item">プロダクトデザイン</div>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-behance"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Worksセクション -->
+    <section id="works">
+        <div class="container">
+            <h2 class="works-title">Works</h2>
+            <div class="works-grid">
+                <!-- 作品1 -->
+                <div class="work-item" data-id="1">
+                    <img src="images/works/actual1.png" alt="ECサイトリニューアル" class="work-img" loading="lazy"
+                        data-src="images/works/actual1.png">
+                    <div class="work-content">
+                        <h3 class="work-title">&e（アンディ） プロトタイプデザイン</h3>
+                        <p class="work-category">Figma/UI/UXデザイン</p>
+                    </div>
+                </div>
+                <!-- 作品2 -->
+                <div class="work-item" data-id="2">
+                    <img src="images/works/actual2.png" alt="ブランドアイデンティティ開発" class="work-img" loading="lazy"
+                        data-src="images/works/actual2.png">
+                    <div class="work-content">
+                        <h3 class="work-title">elbo - 美容医療管理サイト</h3>
+                        <p class="work-category">Figma/UI/UXデザイン</p>
+                    </div>
+                </div>
+                <!-- 作品3 -->
+                <div class="work-item" data-id="3">
+                    <img src="images/works/actual3.png" alt="モバイルアプリUIデザイン" class="work-img" loading="lazy"
+                        data-src="images/works/actual3.png">
+                    <div class="work-content">
+                        <h3 class="work-title">CLISTA! - 医療専門管理サイト</h3>
+                        <p class="work-category">Figma/UI/UXデザイン</p>
+                    </div>
+                </div>
+                <!-- 作品4 -->
+                <div class="work-item" data-id="4">
+                    <img src="images/works/actual4.png" alt="コーポレートサイト制作" class="work-img" loading="lazy"
+                        data-src="images/works/actual4.png">
+                    <div class="work-content">
+                        <h3 class="work-title">株式会社アスノ - コーポレートサイトデザイン</h3>
+                        <p class="work-category">Figma/UI/UXデザイン</p>
+                    </div>
+                </div>
+                <!-- 作品5 -->
+                <div class="work-item" data-id="5">
+                    <img src="images/works/actual5.png" alt="プロモーションビデオ制作" class="work-img" loading="lazy"
+                        data-src="images/works/actual5.png">
+                    <div class="work-content">
+                        <h3 class="work-title">パラちゃんねる - 障害者雇用支援サイト</h3>
+                        <p class="work-category">Figma/UI/UXデザイン</p>
+                    </div>
+                </div>
+                <!-- 作品6 -->
+                <div class="work-item" data-id="6">
+                    <img src="images/works/actual6.png" alt="インタラクティブインスタレーション" class="work-img" loading="lazy"
+                        data-src="images/works/actual6.png">
+                    <div class="work-content">
+                        <h3 class="work-title">assists - 家庭用アプリ</h3>
+                        <p class="work-category">Figma/UI/UXデザイン</p>
+                    </div>
+                </div>
+                <!-- 作品7 -->
+                <div class="work-item" data-id="7">
+                    <img src="images/works/actual7.png" alt="プロモーションビデオ制作" class="work-img" loading="lazy"
+                        data-src="images/works/actual7.png">
+                    <div class="work-content">
+                        <h3 class="work-title">シマンテック - コーポレートサイト制作</h3>
+                        <p class="work-category">Figma/UI/UXデザイン</p>
+                    </div>
+                </div>
+                <!-- 作品8 -->
+                <div class="work-item" data-id="8">
+                    <img src="images/works/actual8.png" alt="プロモーションビデオ制作" class="work-img" loading="lazy"
+                        data-src="images/works/actual8.png">
+                    <div class="work-content">
+                        <h3 class="work-title">F&C - 自動車出庫管理システム</h3>
+                        <p class="work-category">Figma/UI/UXデザイン</p>
+                    </div>
+                </div>
+                <!-- 作品9 -->
+                <div class="work-item" data-id="9">
+                    <img src="images/works/actual9.png" alt="プロモーションビデオ制作" class="work-img" loading="lazy"
+                        data-src="images/works/actual9.png">
+                    <div class="work-content">
+                        <h3 class="work-title">株式会社ニッショー - 物件管理システム開発</h3>
+                        <p class="work-category">Figma/UI/UXデザイン</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contactセクション -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="contact-title">Contact</h2>
+            <div class="contact-content">
+                <p class="contact-text">
+                    あなたの “ひとこと” が、次の素敵なプロジェクトのきっかけになるかもしれません。
+                </p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name" class="form-label">お名前</label>
+                        <input type="text" id="name" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">メールアドレス</label>
+                        <input type="email" id="email" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject" class="form-label">件名</label>
+                        <input type="text" id="subject" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">メッセージ</label>
+                        <textarea id="message" class="form-textarea" required></textarea>
+                    </div>
+                    <button type="submit" class="form-button">送信する</button>
+                </form>
+
+            </div>
+        </div>
+
+        <!-- 5. コンタクトフォームのバリデーション強化 -->
+        <!-- 既存のフォームに追加するクラス -->
+        <div class="form-feedback" id="name-feedback"></div>
+        <div class="form-feedback" id="email-feedback"></div>
+        <div class="form-feedback" id="subject-feedback"></div>
+        <div class="form-feedback" id="message-feedback"></div>
+
+
+    </section>
+
+    <!-- フッター -->
+    <footer>
+        <p class="footer-text">&copy; 2025 Portfolio. All Rights Reserved.</p>
+    </footer>
+
+    <!-- 作品詳細モーダル（更新版） -->
+    <div class="modal" id="workModal">
+        <div class="modal-content">
+            <span class="modal-close"><i class="fas fa-times"></i></span>
+            <img src="/api/placeholder/1200/800" alt="" class="modal-img" loading="lazy">
+            <!-- JavaScriptで画像ナビゲーションが挿入されます -->
+            <h3 class="modal-title"></h3>
+            <div class="modal-details"></div>
+            <p class="modal-description"></p>
+        </div>
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+
+
+</html>
