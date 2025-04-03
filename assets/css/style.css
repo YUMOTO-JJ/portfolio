@@ -272,7 +272,7 @@ body.dark-mode #loading-screen {
     bottom: 30px;
     left: 50%;
     transform: translateX(-50%);
-    color: #fff;
+    color: #333333;
     display: flex;
     flex-direction: column;
     align-items: center;
