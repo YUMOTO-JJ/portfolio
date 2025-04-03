@@ -13,26 +13,19 @@
     <!-- ファビコン設定 -->
     <link rel="icon" href="images/test.webp" type="image/x-icon">
     <link rel="shortcut icon" href="images/test.webp" type="image/x-icon">
-
-    <!-- 他のCSSファイル等へのリンク -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <!-- 他のリンク -->
-
 </head>
 
 <body>
-
-    <!-- ローディングアニメーション - bodyタグの直後に配置 -->
+    <!-- ローディングアニメーション -->
     <div id="loading-screen">
         <div class="loader">
             <div class="logo-container">
                 <img src="images/logo.png" alt="CIRCLE" class="logo-img">
             </div>
-
         </div>
     </div>
 
-    <!-- サイトロゴ - ナビゲーションより前に配置 -->
+    <!-- サイトロゴ -->
     <div class="site-logo">
         <a href="#hero">
             <img src="images/test 1.png" alt="CIRCLE" class="header-logo">
@@ -51,15 +44,30 @@
 
     <!-- ヒーローセクション -->
     <section id="hero">
-        <div class="hero-bg active" style="background-image: url('images/hero-bg-1.jpeg');"></div>
+           <!-- FF背景 -->
+        <!-- <div class="hero-bg active" style="background-image: url('images/hero-bg-1.jpeg');"></div>
         <div class="hero-bg" style="background-image: url('images/hero-bg-2.webp');"></div>
         <div class="hero-bg" style="background-image: url('images/hero-bg-3.jpeg');"></div>
-        <div class="overlay"></div>
-        <div class="hero-content">
-            <h1 class="hero-title">RYOTA YUMOTO</h1>
-            <p class="hero-subtitle">web designer/product designer</p>
+        <div class="overlay"></div> -->
+        
+        <div class="hero-container">
+            <div class="hero-left">
+                <h1 class="hero-title">RYOTA YUMOTO</h1>
+                <p class="hero-subtitle">web designer/product designer</p>
+                <p class="hero-description">
+                    シンプルに、わかりやすく、美しく。
+                </p>
+            </div>
+            
+            <div class="hero-right">
+                <div class="envelope-container">
+                    <img src="images/envelope.png" alt="Design Envelope" class="envelope-img">
+                </div>
+            </div>
         </div>
+        
         <div class="scroll-indicator">
+            <span>SCROLL</span>
             <i class="fas fa-angle-down"></i>
         </div>
     </section>
@@ -73,11 +81,10 @@
                     1994年生まれ。販売業からデザインの世界へ飛び込み、現在はUI/UXデザイナーとして活動。
 
                     株式会社コナカのスーツセレクトで販売業に従事した後、デザインの道へ転身。株式会社444にてプロダクトのUI/UX改善やHPデザイン、TechFULの運営を経験。その後、株式会社CIRCLEのスタートメンバーとして参画し、様々なプロダクトのデザインに携わる。
-                    
+
                     クライアントの課題を理解し、本質的な価値を生み出すデザインを探求。単なるビジュアルの美しさだけでなく、ビジネスの成長に貢献できるデザインを提供することを目指している。
-                    
+
                     今後は、AIを活用してより戦略的なデザイン設計に携わり、クライアントのビジョンを形にするパートナーとして貢献できるよう努めていきます。制作のご依頼だけでなく、デザイン面でのコンサルティングなどもお気軽にご相談ください。
-                    
                 </p>
 
                 <h2 class="about-title">point of view</h2>
@@ -102,7 +109,6 @@
                 <a href="#" class="social-link"><i class="fab fa-github"></i></a>
             </div>
         </div>
-
     </section>
 
     <!-- Worksセクション -->
@@ -115,7 +121,7 @@
                     <img src="images/works/actual1.png" alt="ECサイトリニューアル" class="work-img" loading="lazy"
                         data-src="images/works/actual1.png">
                     <div class="work-content">
-                        <h3 class="work-title">&e（アンディ） プロトタイプデザイン</h3>
+                        <h3 class="work-title">自動車保険アプリ - プロトタイプデザイン</h3>
                         <p class="work-category">Figma/UI/UXデザイン</p>
                     </div>
                 </div>
@@ -133,7 +139,7 @@
                     <img src="images/works/actual3.png" alt="モバイルアプリUIデザイン" class="work-img" loading="lazy"
                         data-src="images/works/actual3.png">
                     <div class="work-content">
-                        <h3 class="work-title">CLISTA! - 医療専門管理サイト</h3>
+                        <h3 class="work-title">医療専門管理サイト</h3>
                         <p class="work-category">Figma/UI/UXデザイン</p>
                     </div>
                 </div>
@@ -142,7 +148,7 @@
                     <img src="images/works/actual4.png" alt="コーポレートサイト制作" class="work-img" loading="lazy"
                         data-src="images/works/actual4.png">
                     <div class="work-content">
-                        <h3 class="work-title">株式会社アスノ - コーポレートサイトデザイン</h3>
+                        <h3 class="work-title">コーポレートサイトデザイン</h3>
                         <p class="work-category">Figma/UI/UXデザイン</p>
                     </div>
                 </div>
@@ -151,7 +157,7 @@
                     <img src="images/works/actual5.png" alt="プロモーションビデオ制作" class="work-img" loading="lazy"
                         data-src="images/works/actual5.png">
                     <div class="work-content">
-                        <h3 class="work-title">パラちゃんねる - 障害者雇用支援サイト</h3>
+                        <h3 class="work-title">障害者雇用支援サイト</h3>
                         <p class="work-category">Figma/UI/UXデザイン</p>
                     </div>
                 </div>
@@ -169,7 +175,7 @@
                     <img src="images/works/actual7.png" alt="プロモーションビデオ制作" class="work-img" loading="lazy"
                         data-src="images/works/actual7.png">
                     <div class="work-content">
-                        <h3 class="work-title">シマンテック - コーポレートサイト制作</h3>
+                        <h3 class="work-title">コーポレートサイト制作</h3>
                         <p class="work-category">Figma/UI/UXデザイン</p>
                     </div>
                 </div>
@@ -178,7 +184,7 @@
                     <img src="images/works/actual8.png" alt="プロモーションビデオ制作" class="work-img" loading="lazy"
                         data-src="images/works/actual8.png">
                     <div class="work-content">
-                        <h3 class="work-title">F&C - 自動車出庫管理システム</h3>
+                        <h3 class="work-title">自動車出庫管理システム</h3>
                         <p class="work-category">Figma/UI/UXデザイン</p>
                     </div>
                 </div>
@@ -187,7 +193,7 @@
                     <img src="images/works/actual9.png" alt="プロモーションビデオ制作" class="work-img" loading="lazy"
                         data-src="images/works/actual9.png">
                     <div class="work-content">
-                        <h3 class="work-title">株式会社ニッショー - 物件管理システム開発</h3>
+                        <h3 class="work-title">物件管理システム開発</h3>
                         <p class="work-category">Figma/UI/UXデザイン</p>
                     </div>
                 </div>
@@ -197,43 +203,58 @@
 
     <!-- Contactセクション -->
     <section id="contact">
+        <!-- アニメーション背景 -->
+        <div class="animated-background">
+            <!-- SVG雲 -->
+            <svg class="cloud cloud-1" viewBox="0 0 100 40" width="150" height="60">
+                <path d="M10,30 Q15,10 30,20 T50,15 T70,20 T90,30 Q90,40 80,40 L20,40 Q10,40 10,30" fill="rgba(255, 255, 255, 0.06)"/>
+            </svg>
+            
+            <svg class="cloud cloud-2" viewBox="0 0 100 40" width="120" height="48">
+                <path d="M10,25 Q15,10 30,15 T50,10 T70,15 T90,25 Q90,35 80,35 L20,35 Q10,35 10,25" fill="rgba(255, 255, 255, 0.04)"/>
+            </svg>
+            
+            <svg class="cloud cloud-3" viewBox="0 0 100 40" width="180" height="72">
+                <path d="M10,30 Q20,15 35,20 T60,15 T80,25 T95,30 Q95,40 85,40 L20,40 Q10,40 10,30" fill="rgba(255, 255, 255, 0.05)"/>
+            </svg>
+            
+            <!-- 紙飛行機 -->
+            <img src="images/paper-plane.png" class="paper-plane" alt="Message">
+        </div>
+
         <div class="container">
             <h2 class="contact-title">Contact</h2>
             <div class="contact-content">
                 <p class="contact-text">
-                    あなたの “ひとこと” が、次の素敵なプロジェクトのきっかけになるかもしれません。
+                    あなたの "ひとこと" が、次の素敵なプロジェクトのきっかけになるかもしれません。
                 </p>
-                <form class="contact-form">
+                <form class="contact-form" action="https://formspree.io/f/mqapypkq" method="POST">
                     <div class="form-group">
                         <label for="name" class="form-label">お名前</label>
-                        <input type="text" id="name" class="form-input" required>
+                        <input type="text" id="name" name="name" class="form-input" required>
                     </div>
                     <div class="form-group">
                         <label for="email" class="form-label">メールアドレス</label>
-                        <input type="email" id="email" class="form-input" required>
+                        <input type="email" id="email" name="email" class="form-input" required>
                     </div>
                     <div class="form-group">
                         <label for="subject" class="form-label">件名</label>
-                        <input type="text" id="subject" class="form-input" required>
+                        <input type="text" id="subject" name="subject" class="form-input" required>
                     </div>
                     <div class="form-group">
                         <label for="message" class="form-label">メッセージ</label>
-                        <textarea id="message" class="form-textarea" required></textarea>
+                        <textarea id="message" name="message" class="form-textarea" required></textarea>
                     </div>
                     <button type="submit" class="form-button">送信する</button>
                 </form>
-
             </div>
         </div>
 
-        <!-- 5. コンタクトフォームのバリデーション強化 -->
-        <!-- 既存のフォームに追加するクラス -->
+        <!-- フォームフィードバック用 -->
         <div class="form-feedback" id="name-feedback"></div>
         <div class="form-feedback" id="email-feedback"></div>
         <div class="form-feedback" id="subject-feedback"></div>
         <div class="form-feedback" id="message-feedback"></div>
-
-
     </section>
 
     <!-- フッター -->
@@ -241,7 +262,7 @@
         <p class="footer-text">&copy; 2025 Portfolio. All Rights Reserved.</p>
     </footer>
 
-    <!-- 作品詳細モーダル（更新版） -->
+    <!-- 作品詳細モーダル -->
     <div class="modal" id="workModal">
         <div class="modal-content">
             <span class="modal-close"><i class="fas fa-times"></i></span>
@@ -253,11 +274,8 @@
         </div>
     </div>
 
-
     <!-- JavaScript -->
     <script src="assets/js/main.js"></script>
 </body>
-
-
 
 </html>
